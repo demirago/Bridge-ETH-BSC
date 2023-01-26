@@ -1,0 +1,11 @@
+# Bridge-ETH-BSC
+BRIDGE PROTOCOL
+A blockchain bridge is a protocol that connects two blockchains to enable interaction between them. If you want to participate in DeFi events on the Ethereum network while you have bitcoins in hand, you can do so using a blockchain bridge without having to sell your bitcoins. Blockchain bridges have a fundamental function to enable interoperability in the blockchain world.
+In general, blockchain bridges are classified in many different ways. That's why, in this study, I prepared it on market examples and explaining the work done without going through the classification process.
+Almost all popular ecosystems have the bridge protocol. However, every protocol is different. For example, Binance's blockchain bridge acts as a bidirectional bridge between Ethereum and the main Binance chain. It also uses certain features of the Ethereum compatible BNB Smart Chain to wrap token assets. Therefore, it can help transfer assets from Binance to Ethereum. Binance Bridge wraps tokens in the BEP-20 token standard, helping users leverage Ethereum-based assets on the BNB Smart Chain. Avalanche's blockchain bridge is also a bidirectional bridge for asset transfer between Ethereum and Avalanche networks. It also supports ERC-721 and ERC-20 functionality, thus supporting the transfer of NFTs and cryptocurrencies.
+
+In this study, I used the most common bridge protocol, which includes locking, burning and printing tokens.
+In the study, I set up the bridge with the ethereum network. I forked our token in the BSC network to the ethereum network. Let's say we will swap 100 tokens from the BSC network to the ethereum network with the established bridge. In this system, we initially have 100 tokens in our BSC network. We lock these 100 tokens at the user's BSC network address. Then we mint these 100 tokens in the ethereum network. Progress is made by signing contracts by the user.
+The advantage of this system is that there is always 100% guarantee to 'reclaim' the target chain tokens and therefore scaling is possible. It is a reliable method among bridge methods.
+The disadvantageous part is that if the resource fund is compromised, the entire bridge explodes. In addition, with this method, only 2 networks can be bridged and it is a slow method.
+
